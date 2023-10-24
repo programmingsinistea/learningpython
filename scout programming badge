@@ -1,0 +1,39 @@
+import tkinter as tk #pip install tk or pip3 install tk
+try:
+    import pickle #find which version of pickle it is
+except ImportError:
+    import cPickle
+finally:
+    print("please install Pickle")
+    print("type pip install tk into terminal")  
+
+class datasaving:
+    def dataread():#try to load data
+        try:
+           with open("userdata", "rb") as namefile:   #try to load data
+                namelist = pickle.load(namefile)#data loaded into list namelist
+        except FileNotFoundError:
+            print("data not found") #return fail
+            with open('userdata', 'wb') as usr_file:
+                usr_file.close()                
+    def datasave():
+        try:
+            with open("userdata", "wb") as namefile:   #Pickling
+                pickle.dump(namelist, namefile)            
+        except FileNotFoundError:
+            print("save failed")
+            print("data not found") #return fail
+            with open('userdata', 'wb') as usr_file:#open the file
+                usr_file.close()                
+
+class pages:
+    def page1():#set the page 1 
+        window = tk.Tk()
+        window.title('page1-menu')
+        window.geometry('500x300')
+        window.mineloop()
+
+
+
+    
+
