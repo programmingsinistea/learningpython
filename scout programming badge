@@ -5,10 +5,10 @@ except ImportError:
     import cPickle
 finally:
     print("please install Pickle")
-    print("type pip install tk into terminal")  
+    print("type pip install pickle into terminal")  
 
-class datasaving:
-    def dataread():#try to load data
+def data_save_load(method):
+    if method==1:#loading
         try:
            with open("userdata", "rb") as namefile:   #try to load data
                 namelist = pickle.load(namefile)#data loaded into list namelist
@@ -16,24 +16,25 @@ class datasaving:
             print("data not found") #return fail
             with open('userdata', 'wb') as usr_file:
                 usr_file.close()                
-    def datasave():
+    if method==2:#saving
         try:
-            with open("userdata", "wb") as namefile:   #Pickling
+            with open("userdata", "wb") as namefile:#try to save data   #Pickling
                 pickle.dump(namelist, namefile)            
         except FileNotFoundError:
-            print("save failed")
+            print("save failed") 
             print("data not found") #return fail
-            with open('userdata', 'wb') as usr_file:#open the file
+            with open('userdata', 'wb') as usr_file:#open a new file
                 usr_file.close()                
 
-class pages:
-    def page1():#set the page 1 
+def page(page_number):#set the page 1 
+    if page_number==1:
         window = tk.Tk()
         window.title('page1-menu')
         window.geometry('500x300')
         window.mineloop()
 
 
+page(1)
 
     
 
