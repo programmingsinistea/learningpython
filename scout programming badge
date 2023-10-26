@@ -1,16 +1,25 @@
-import tkinter as tk #pip install tk or pip3 install tk
-try:
-    import pickle #find which version of pickle it is
+'''
+work in progress
+'''
+"""Module providing ui for python."""
+try:#check if tkinter installed or not
+    import tkinter as tk#pip install tk or pip3 install tk
 except ImportError:
-    import cPickle
-finally:
-    print("please install Pickle")
-    print("type pip install pickle into terminal")  
-
+    print("tkinter not installed")
+"""Module  data saving funshion python."""
+try:
+    import pickle #check if pickle installed or not
+except ImportError:
+    try:    
+        import pickle5
+    except ImportError:
+        print("please install Pickle")
+        print("type pip install pickle into terminal")  
+#define funshion for data saving and loading using pickle
 def data_save_load(method):
     if method==1:#loading
         try:
-           with open("userdata", "rb") as namefile:   #try to load data
+            with open("userdata", "rb") as namefile:   #try to load data
                 namelist = pickle.load(namefile)#data loaded into list namelist
         except FileNotFoundError:
             print("data not found") #return fail
@@ -27,14 +36,22 @@ def data_save_load(method):
                 usr_file.close()                
 
 def page(page_number):#set the page 1 
+    window = tk.Tk()
+    width = window.winfo_screenwidth()
+    height = window.winfo_screenheight()
     if page_number==1:
-        window = tk.Tk()
-        window.title('page1-menu')
+        window.title('page1-menu')s
         window.geometry('500x300')
-        window.mineloop()
-
+        choose1 = tk.Button(window, text='roll_call', command=page(2))
+        choose1.pack()
+        window.mainloop()
+    if page_number==2:
+        window.title('page2-roll_call')
+        window.geometry("%dx%d" % (width, height))
+        window.mainloop()
 
 page(1)
 
-    
 
+
+    
