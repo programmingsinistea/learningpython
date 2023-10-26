@@ -1,8 +1,11 @@
+#This code was wrote when I was a noob who knew nothing about sorting
+#so it is very very ugly and disgusting
+#pls dont read
 import random
 import matplotlib.pyplot as plt
 import numpy as np
 
-stort_value = 0
+stort_value = 0#Damn it so many Variation
 string=0
 box=0
 max_num=0
@@ -23,7 +26,7 @@ def list_show():
     print("sum=",string)  
 def list_gen():
     global string  
-    global max_num
+    global max_num #oh my god how come it had so many global
     global i
     max_num = int(input("how many number you want to gen?"))
     while i < max_num:
@@ -66,7 +69,7 @@ def findmax():
             for i in list:
 def list_sorting():
     box1=list[0]
-    global stort_value
+    global stort_value#just disgusting ewwwwww
     global sorted
     global tryed
     global sortlist
@@ -99,4 +102,9 @@ if chose==1:
             break
 if chose==2:
     findmax()
+    #to conclude
+#readbility:0
+#elegant:0
+#efficiency:0
+
     
