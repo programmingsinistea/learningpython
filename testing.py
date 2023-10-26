@@ -1,4 +1,4 @@
-#This code was wrote when I was a noob who knew nothing about sorting
+#This code was wrote when I was a noob who knew nothing about sorting.
 #so it is very very ugly and disgusting
 #pls dont read
 import random
