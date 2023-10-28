@@ -49,8 +49,18 @@ def page(page_number):#set the page 1
         window.title('page2-roll_call')
         window.geometry("%dx%d" % (width, height))
         window.mainloop()
+def list library(list):
+	if list==1:
+		try:
+			return name_list: 
+		except variationnotfounderror:
+
+			print("list now found error")
+		
+	
 
 page(1)
+
 
 
 
