@@ -1,12 +1,19 @@
-'''
-work in progress
-'''
 """Module providing ui for python."""
+'''abandoned code
 try:#check if tkinter installed or not
     import tkinter as tk#pip install tk or pip3 install tk
 except ImportError:
     print("tkinter not installed")
 """Module  data saving funshion python."""
+'''
+try:
+    import sys
+except ImportError:
+    print("sys is not installed")
+try:
+    import pygame #try to import pygame
+except ImportError:
+    print("pygame not imported") #report that pygame is not imported
 try:
     import pickle #check if pickle installed or not
 except ImportError:
@@ -35,33 +42,37 @@ def data_save_load(method):
             with open('userdata', 'wb') as usr_file:#open a new file
                 usr_file.close()                
 
+''' abandoned code
 def page(page_number):#set the page 1 
+    global window
     window = tk.Tk()
     width = window.winfo_screenwidth()
     height = window.winfo_screenheight()
     if page_number==1:
-        window.title('page1-menu')s
+        window.title('page1-menu')
         window.geometry('500x300')
         choose1 = tk.Button(window, text='roll_call', command=page(2))
         choose1.pack()
-        window.mainloop()
     if page_number==2:
         window.title('page2-roll_call')
         window.geometry("%dx%d" % (width, height))
-        window.mainloop()
-def list library(list):
-	if list==1:
-		try:
-			return name_list: 
-		except variationnotfounderror:
-
-			print("list now found error")
-		
-	
-
-page(1)
+    window.mainloop()
+'''
+def pygamestart():
+    pygame.init
+    screen = pygame.display.set_mode((2000,2000))
+    pygame.display.set_caption('scouting online system')
 
 
+def pygamepage(page_number):
+    if page_number==1:
+        while True:
+            for event in pygame.event.get():
+                if event.type==pygame.quit:
+                    pygame.quit()
+                    sys.exit()
+                pygame.display.flip()
+            
 
 
-    
+                    
