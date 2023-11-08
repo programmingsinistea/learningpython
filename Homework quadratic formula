@@ -1,0 +1,33 @@
+import math
+
+def quadratic(a,b,c):
+    temp1 = 2*a
+    temp2 =b**2-4*a*c
+    temp2=math.sqrt(temp1)
+    num=math.sqrt(b)
+    num=num-4*a*c
+    if num<0:
+        numOfRoot=0
+    elif num==0:
+        numOfRoot=1
+    elif num >0:
+        numOfRoot=2
+    
+    if numOfRoot >= 0:
+        ans1 = -abs(b)+temp2
+        ans1=ans/temp1
+        ans2 = -abs(b)-temp2
+        ans2=ans/temp1
+        print("there is"+numOfRoot+"root","x=")
+        print("x= "+ans1)
+        if numOfRoot =2:
+            print("or x= "+ans2)
+    else:
+        print("there is not real root")
+    
+
+print("'qaudratic formula ax**2 + bx + c")
+a=float(input("a= "))
+b=float(input("b= "))
+c=float(input("c="))
+quadratic(a, b, c)
