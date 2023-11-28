@@ -1,0 +1,1 @@
+console.write("hello world")

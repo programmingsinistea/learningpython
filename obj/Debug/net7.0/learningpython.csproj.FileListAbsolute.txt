@@ -1,0 +1,15 @@
+/workspaces/learningpython/obj/Debug/net7.0/learningpython.csproj.AssemblyReference.cache
+/workspaces/learningpython/obj/Debug/net7.0/learningpython.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/learningpython/obj/Debug/net7.0/learningpython.AssemblyInfoInputs.cache
+/workspaces/learningpython/obj/Debug/net7.0/learningpython.AssemblyInfo.cs
+/workspaces/learningpython/obj/Debug/net7.0/learningpython.csproj.CoreCompileInputs.cache
+/workspaces/learningpython/bin/Debug/net7.0/learningpython
+/workspaces/learningpython/obj/Debug/net7.0/learningpython.dll
+/workspaces/learningpython/obj/Debug/net7.0/refint/learningpython.dll
+/workspaces/learningpython/obj/Debug/net7.0/learningpython.pdb
+/workspaces/learningpython/bin/Debug/net7.0/learningpython.deps.json
+/workspaces/learningpython/bin/Debug/net7.0/learningpython.runtimeconfig.json
+/workspaces/learningpython/bin/Debug/net7.0/learningpython.dll
+/workspaces/learningpython/bin/Debug/net7.0/learningpython.pdb
+/workspaces/learningpython/obj/Debug/net7.0/learningpython.genruntimeconfig.cache
+/workspaces/learningpython/obj/Debug/net7.0/ref/learningpython.dll

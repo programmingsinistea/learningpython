@@ -1,0 +1,15 @@
+/workspaces/learningpython/c#Learning/C#LEARN/bin/Debug/net7.0/C#LEARN
+/workspaces/learningpython/c#Learning/C#LEARN/bin/Debug/net7.0/C#LEARN.deps.json
+/workspaces/learningpython/c#Learning/C#LEARN/bin/Debug/net7.0/C#LEARN.runtimeconfig.json
+/workspaces/learningpython/c#Learning/C#LEARN/bin/Debug/net7.0/C#LEARN.dll
+/workspaces/learningpython/c#Learning/C#LEARN/bin/Debug/net7.0/C#LEARN.pdb
+/workspaces/learningpython/c#Learning/C#LEARN/obj/Debug/net7.0/C#LEARN.csproj.AssemblyReference.cache
+/workspaces/learningpython/c#Learning/C#LEARN/obj/Debug/net7.0/C#LEARN.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/learningpython/c#Learning/C#LEARN/obj/Debug/net7.0/C#LEARN.AssemblyInfoInputs.cache
+/workspaces/learningpython/c#Learning/C#LEARN/obj/Debug/net7.0/C#LEARN.AssemblyInfo.cs
+/workspaces/learningpython/c#Learning/C#LEARN/obj/Debug/net7.0/C#LEARN.csproj.CoreCompileInputs.cache
+/workspaces/learningpython/c#Learning/C#LEARN/obj/Debug/net7.0/C#LEARN.dll
+/workspaces/learningpython/c#Learning/C#LEARN/obj/Debug/net7.0/refint/C#LEARN.dll
+/workspaces/learningpython/c#Learning/C#LEARN/obj/Debug/net7.0/C#LEARN.pdb
+/workspaces/learningpython/c#Learning/C#LEARN/obj/Debug/net7.0/C#LEARN.genruntimeconfig.cache
+/workspaces/learningpython/c#Learning/C#LEARN/obj/Debug/net7.0/ref/C#LEARN.dll
